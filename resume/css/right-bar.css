@@ -1,0 +1,78 @@
+.right-bar-wraper {
+  background-color: #ffffff;
+  width: 700px;
+  padding: 40px 80px;
+}
+
+.subtitle-header {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 121%;
+  padding-bottom: 20px;
+}
+
+.title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 122%;
+  padding-bottom: 30px;
+}
+
+.subtitle-text-right {
+  color: #161d2a;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.pharagraph-header {
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 171%;
+  padding-bottom: 30px;
+}
+
+.ordered-list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding-bottom: 70px;
+}
+
+.ordered-list-item::marker {
+  font-size: 22px;
+}
+
+.ordered-list-item-link {
+  color: #005fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 171%;
+  text-decoration-line: underline;
+  padding-left: 10px;
+}
+
+.experience-text {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 125%;
+  padding-bottom: 15px;
+}
+
+.pharagraph-experience {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
