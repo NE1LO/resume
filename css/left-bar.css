@@ -37,7 +37,8 @@
 
 .contacts__git-hub-link,
 .contacts__email-link,
-.contacts__linkedin-link {
+.contacts__linkedin-link,
+.contacts__Phone-link {
   color: #161d2a;
   font-family: Montserrat;
   font-size: 16px;
@@ -47,7 +48,8 @@
 
 .contacts__git-hub-link:hover,
 .contacts__email-link:hover,
-.contacts__linkedin-link:hover {
+.contacts__linkedin-link:hover,
+.contacts__Phone-link:hover {
   color: blue;
 }
 /*-----skills-----*/
