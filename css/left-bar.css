@@ -6,7 +6,11 @@
 }
 
 .left-bar__info {
-  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px;
+  height: 100%;
+  gap: 40px;
 }
 
 .contacts,
@@ -20,7 +24,7 @@
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .contacts__list {
@@ -32,7 +36,7 @@
 .contacts__list-item {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .contacts__git-hub-link,
@@ -52,30 +56,10 @@
 .contacts__Phone-link:hover {
   color: blue;
 }
-/*-----skills-----*/
-.skills__list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
-.skills__list-item {
-  list-style-type: disc;
-  color: #161d2a;
-  margin-left: 20px;
-}
-
-.pharagraph {
-  color: #000000;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-}
 /*-----lang-----*/
 .lang__list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
