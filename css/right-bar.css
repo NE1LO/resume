@@ -1,10 +1,10 @@
-.right-bar-wraper {
+.resume__right-bar-wraper {
   background-color: #ffffff;
   width: 700px;
   padding: 40px 80px;
 }
 
-.subtitle-header {
+.header__subtitle {
   color: #000;
   font-family: Montserrat;
   font-size: 14px;
@@ -13,7 +13,7 @@
   padding-bottom: 20px;
 }
 
-.title {
+.header__title {
   color: #000;
   font-family: Montserrat;
   font-size: 45px;
@@ -22,15 +22,7 @@
   padding-bottom: 30px;
 }
 
-.subtitle-text-right {
-  color: #161d2a;
-  font-family: Montserrat;
-  font-size: 26px;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-
-.pharagraph-header {
+.header__paragraph {
   color: #595959;
   font-family: Montserrat;
   font-size: 16px;
@@ -39,17 +31,25 @@
   padding-bottom: 30px;
 }
 
-.ordered-list {
+.projects__subtitle {
+  color: #161d2a;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.projects__list {
   list-style-type: decimal;
   list-style-position: inside;
   padding-bottom: 70px;
 }
 
-.ordered-list-item::marker {
+.projects__list-item::marker {
   font-size: 22px;
 }
 
-.ordered-list-item-link {
+.projects__list-item-link {
   color: #005fff;
   font-family: Montserrat;
   font-size: 18px;
@@ -59,7 +59,16 @@
   padding-left: 10px;
 }
 
-.experience-text {
+.experience__subtitle {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 122%;
+  margin-bottom: 10px;
+}
+
+.experience__text {
   color: #000;
   font-family: Montserrat;
   font-size: 18px;
@@ -68,7 +77,7 @@
   padding-bottom: 15px;
 }
 
-.pharagraph-experience {
+.experience__paragraph {
   color: #000;
   font-family: Montserrat;
   font-size: 14px;
